@@ -302,7 +302,7 @@ form .search{
     padding: 0 70px;
     margin: 50px 0;
     background-color: #146ef5;
-    height: 300px;
+    height: 500px;
     padding: 50px;
     color: white;
     gap: 10px;
@@ -313,18 +313,115 @@ form .search{
     align-items: center;
     padding:10px 20px;
 }
+.t .btn button{
+    color: black;
+}
 .checkout .btn{
     display: flex;
     gap: 10px;
+    width: 30%;
 }
 .checkout img{
-    width: 216px;
-    margin-top: 106px;
+    width: 635px;
+    height: 425px;
+    margin-top: 25px;
+}
+.checkout .t{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
 .checkout h3{
-    font-size: 32px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.checkout p{
+    font-size: 14px;
+    opacity: 0.8;;
 }
 .checkout button{
     margin-top: 20px;
 }
 /* checkout end */
+/* category start */
+.category-section{
+    padding: 0 150px 0 70px;
+    background-color: rgba(0, 0, 0, 0.054);
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.114);
+    padding: 50px 0;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.559);
+}
+.category h3{
+    padding-right: 10px;
+}
+ul li{
+    list-style: none;
+}
+.category ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* category end */
+/* getstarded start */
+.getstarted{
+    background-color: black;
+    color: white;
+}
+.a button{
+    display: flex;
+    gap: 10px;
+    background-color: #146ef5;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.getstarted .d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* align-items: center; */
+}
+.getstarted .im{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.d h5{
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* getstarded end */
+/* footer start */
+.footer .a{
+    padding: 0 20px 20px 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer .a ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer h4{
+    font-weight: 400;
+    font-size: 14;
+}
+.footer ul li a i{
+    font-size: 20px;
+}
+/* footer end */
